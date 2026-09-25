@@ -1,6 +1,6 @@
 var loadingText = document.querySelector("#loading-text");
 const originalFetch = window.fetch;
-const RAW_BASE = "https://raw.githubusercontent.com/1ts-Alec/vena/6f823dbe2e1829a11a64af8b99eabc1eb9929fd7/";
+const RAW_BASE = "https://raw.githubusercontent.com/1ts-Alec/vena/main/";
 let loadedBytes = 0;
 
 async function fetchWithProgress(url) {
